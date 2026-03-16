@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarmly Help & Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            padding: 60px 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .intro {
+            font-size: 1.1rem;
+            color: #495057;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            letter-spacing: -0.3px;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #27548A;
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 18px;
+            color: #495057;
+            font-size: 1rem;
+        }
+
+        ul {
+            margin: 20px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 24px;
+            position: relative;
+            color: #495057;
+        }
+
+        li:before {
+            content: "•";
+            position: absolute;
+            left: 8px;
+            color: #6c757d;
+            font-weight: bold;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            border-left: 4px solid #27548A;
+        }
+
+        .faq-item .question {
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .faq-item .answer {
+            color: #495057;
+            margin-bottom: 0;
+        }
+
+        .tip-box {
+            background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+            padding: 20px 25px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border-left: 4px solid #DDA853;
+        }
+
+        .tip-box .tip-title {
+            font-weight: 600;
+            color: #E65100;
+            margin-bottom: 6px;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border-left: 4px solid #007bff;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Help & Support</h1>
+
+        <p class="intro">Welcome to Alarmly! Here you'll find answers to common questions and tips to get the most out of your alarm experience.</p>
+
+        <div class="section">
+            <h2>Getting Started</h2>
+
+            <h3>Setting Your First Alarm</h3>
+            <p>Tap the <strong>+</strong> button on the Home screen to create a new alarm. Choose your wake-up time, select a challenge type, and pick a sound. Alarmly uses Apple's AlarmKit to ensure your alarm rings even when your phone is locked or in silent mode.</p>
+
+            <div class="tip-box">
+                <p class="tip-title">Tip</p>
+                <p>For the best experience, grant alarm permission when prompted. This allows Alarmly to wake you up reliably, even in Do Not Disturb mode.</p>
+            </div>
+
+            <h3>Choosing a Challenge</h3>
+            <p>Challenges help you wake up fully by engaging your brain. Choose from:</p>
+            <ul>
+                <li><strong>Math:</strong> Solve 3 arithmetic problems</li>
+                <li><strong>Quiz:</strong> Answer 2 general knowledge questions</li>
+                <li><strong>Text:</strong> Type a motivational phrase exactly</li>
+                <li><strong>Shake:</strong> Shake your phone a set number of times</li>
+                <li><strong>Memory:</strong> Match 4 pairs of cards</li>
+                <li><strong>Reaction:</strong> Tap targets as they appear</li>
+                <li><strong>Photo:</strong> Take a photo of a specific object</li>
+            </ul>
+            <p>Free users have access to Math challenges. Upgrade to Pro to unlock all challenge types.</p>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <p class="question">Will my alarm work if my phone is on silent?</p>
+                <p class="answer">Yes! Alarmly uses Apple's AlarmKit (iOS 18+), which ensures alarms sound even in silent mode or Do Not Disturb. Make sure you've granted alarm permission in Settings.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">How does snooze work?</p>
+                <p class="answer">When your alarm fires, tap "Stop" on the Lock Screen to open the app. Inside the app, you can choose to snooze (if enabled) or complete the challenge to dismiss. Snooze is only available inside the app — not from the Lock Screen.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">What is the wake-up streak?</p>
+                <p class="answer">Your streak counts consecutive days you've successfully dismissed your alarm by completing the challenge. Missing a day or snoozing resets your streak. Build long streaks to earn rewards!</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">How do I restore my premium purchase?</p>
+                <p class="answer">Go to Settings, tap the subscription section, then tap "Restore Purchases". Your premium features will be restored if you have an active subscription.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">Can I use Siri to set alarms?</p>
+                <p class="answer">Yes! Say "Hey Siri, set an alarm in Alarmly" to create a new alarm with default settings. You can specify the time, like "Set an alarm for 7 AM in Alarmly".</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">What about my sleep data?</p>
+                <p class="answer">Alarmly can optionally read your sleep data from Apple Health to provide insights about your sleep patterns. This is completely optional — the app works fully without HealthKit access.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="question">How do I change the app language?</p>
+                <p class="answer">Go to Settings and tap "Language". Alarmly supports 17 languages including English, Turkish, German, French, Spanish, Japanese, Korean, and more.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Troubleshooting</h2>
+
+            <h3>Alarm didn't ring</h3>
+            <ul>
+                <li>Make sure alarm permission is granted (Settings > Alarmly > Alarms)</li>
+                <li>Check that the alarm is enabled (toggle is on) in the Home screen</li>
+                <li>Verify your phone has sufficient battery</li>
+                <li>Restart the app if you recently updated iOS</li>
+            </ul>
+
+            <h3>Sound not playing</h3>
+            <ul>
+                <li>Check your device volume — Alarmly overrides silent mode but respects volume level</li>
+                <li>Try selecting a different alarm sound</li>
+                <li>If using a downloaded sound, check your internet connection</li>
+            </ul>
+
+            <h3>Streak was reset unexpectedly</h3>
+            <ul>
+                <li>Streaks reset if you miss a day (no alarm dismissed within 24 hours)</li>
+                <li>Snoozing an alarm also breaks the streak</li>
+                <li>Make sure you complete the challenge — just stopping the alarm doesn't count</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>Still need help? We're here for you.</p>
+            <div class="contact-info">
+                <p><strong>Enes Talha Ucar</strong></p>
+                <p>Alarmly Support</p>
+                <p>Email: <a href="mailto:enestalhaucar@icloud.com">enestalhaucar@icloud.com</a></p>
+            </div>
+            <p>We typically respond within 24 hours.</p>
+        </div>
+
+        <div class="footer">
+            <p><a href="alarmly-privacy-policy.html">Privacy Policy</a> · <a href="alarmly-terms-of-use.html">Terms of Use</a></p>
+        </div>
+    </div>
+</body>
+</html>
