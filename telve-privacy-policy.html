@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telve Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.7; color: #2c2018;
+            background: linear-gradient(135deg, #f5efe6 0%, #e3cdb8 100%);
+            min-height: 100vh; padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px; margin: 0 auto; background: #ffffff;
+            border-radius: 16px; box-shadow: 0 10px 40px rgba(60,30,10,0.12); padding: 60px 50px;
+        }
+        h1 { font-size: 2.5rem; font-weight: 700; color: #1a120b; margin-bottom: 12px; letter-spacing: -0.5px; }
+        .last-updated { color: #8a7766; font-size: 0.95rem; margin-bottom: 40px; font-weight: 400; }
+        .intro { font-size: 1.1rem; color: #4a3c30; margin-bottom: 50px; padding-bottom: 30px; border-bottom: 1px solid #ece2d6; }
+        h2 { font-size: 1.5rem; font-weight: 600; color: #1a120b; margin-top: 40px; margin-bottom: 20px; letter-spacing: -0.3px; }
+        p { margin-bottom: 18px; color: #4a3c30; font-size: 1rem; }
+        ul { margin: 20px 0; padding-left: 0; list-style: none; }
+        li { margin-bottom: 12px; padding-left: 24px; position: relative; color: #4a3c30; }
+        li:before { content: "•"; position: absolute; left: 8px; color: #c5613a; font-weight: bold; }
+        .section { margin-bottom: 35px; }
+        .section-title { font-weight: 600; color: #1a120b; margin-bottom: 8px; }
+        .section-content { color: #4a3c30; margin-left: 0; }
+        .contact-info { background: #faf6f1; padding: 25px; border-radius: 8px; margin-top: 40px; border-left: 4px solid #c5613a; }
+        .contact-info p { margin-bottom: 8px; }
+        .footer { margin-top: 50px; padding-top: 30px; border-top: 1px solid #ece2d6; text-align: center; }
+        a { color: #c5613a; text-decoration: none; font-weight: 500; transition: color 0.2s ease; }
+        a:hover { color: #a04e2e; text-decoration: underline; }
+        @media (max-width: 768px) { .container { padding: 40px 30px; } h1 { font-size: 2rem; } h2 { font-size: 1.3rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: June 3, 2026</p>
+
+        <p class="intro">Telve ("we," "us," or "our") operates the Telve mobile application (the "App"), an espresso and coffee tracking tool for iOS and iPadOS. We are committed to protecting your privacy. This Privacy Policy explains what information the App handles, how it is used, and the choices you have. Telve is designed to be local-first: your coffee data lives on your device and, if you choose, in your own private iCloud account. We do not operate a server that stores your personal coffee logs.</p>
+
+        <div class="section">
+            <h2>1. Information We Collect</h2>
+            <p>The App is built to minimize data collection. The information involved is:</p>
+            <ul>
+                <li><span class="section-title">Coffee Content You Create:</span> <span class="section-content">Beans, espresso shots, recipes, equipment setups, ratings, tasting notes, and optional photos you add. This content is stored locally on your device using Apple's SwiftData and, if iCloud is enabled, mirrored to your private iCloud (CloudKit) database. We cannot access the contents of your private iCloud database.</span></li>
+                <li><span class="section-title">Profile Information:</span> <span class="section-content">An optional display name and profile photo you provide. These are stored on your device (and your private iCloud) only.</span></li>
+                <li><span class="section-title">Photos:</span> <span class="section-content">With your permission, images you capture with the camera or select from your photo library to attach to beans or your profile. Photos are stored locally and are not uploaded to us.</span></li>
+                <li><span class="section-title">AI Coach Inputs:</span> <span class="section-content">When you use the AI Dial-In Coach, the relevant shot parameters, bean details, equipment, and any tasting notes you provide are sent to our AI provider to generate a suggestion. See Section 4.</span></li>
+                <li><span class="section-title">Subscription Information:</span> <span class="section-content">If you purchase Telve Premium, our subscription provider (RevenueCat) and Apple process the transaction. We receive an anonymous identifier and subscription status — never your payment card details.</span></li>
+            </ul>
+            <p>We do not require an account, and we do not collect your name, email address, contacts, or precise location. The App contains no third-party advertising or analytics tracking SDKs, and does not use the Advertising Identifier (IDFA) or App Tracking Transparency tracking.</p>
+        </div>
+
+        <div class="section">
+            <h2>2. How We Use Your Information</h2>
+            <ul>
+                <li>To provide the core features of the App: logging shots, managing your bean library and equipment, calculating statistics and streaks, and generating shareable shot cards and your yearly recap.</li>
+                <li>To send local notifications you opt into, such as reminders that your beans are reaching or passing their freshness peak. These are scheduled on your device.</li>
+                <li>To generate AI dial-in suggestions when you actively request them (see Section 4).</li>
+                <li>To process and validate Premium subscriptions through Apple and RevenueCat.</li>
+            </ul>
+            <p>Your coffee content is used solely to provide the App's features to you. It is never used for advertising or sold to anyone.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. iCloud and CloudKit Sync</h2>
+            <p>If you are signed in to iCloud and have iCloud enabled for Telve, your coffee data is synced across your devices and backed up through Apple's CloudKit using your <strong>private</strong> database. This means:</p>
+            <ul>
+                <li>The data is stored in your personal iCloud account, governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+                <li>We, the developer, cannot read the contents of your private CloudKit database.</li>
+                <li>If you are not signed in to iCloud, the App works fully in local-only mode and no sync occurs.</li>
+                <li>Sync uses Apple's push infrastructure to deliver change notifications between your devices.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>4. AI Dial-In Coach</h2>
+            <p>The App offers an optional AI Dial-In Coach that provides brewing suggestions. When — and only when — you use this feature, the App sends the data needed to generate a suggestion (such as shot dose, yield, time, grind, bean details, equipment, and any tasting notes you typed) to our AI provider, <strong>Anthropic</strong> (the Claude API), for processing.</p>
+            <ul>
+                <li>This data is sent to generate your suggestion and is subject to Anthropic's terms and privacy practices. Anthropic states that data submitted through its API is not used to train its models by default.</li>
+                <li>We do not attach your name, email, or any account identifier to these requests.</li>
+                <li>If you never use the AI Coach, none of your data is sent to Anthropic.</li>
+                <li>AI suggestions are informational only and are not guaranteed to be accurate. See our Terms of Use.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>5. Sharing Your Information</h2>
+            <ul>
+                <li><span class="section-title">With Apple:</span> <span class="section-content">For iCloud/CloudKit sync and In-App Purchase processing, as part of iOS.</span></li>
+                <li><span class="section-title">With RevenueCat:</span> <span class="section-content">For subscription management, limited to anonymous purchase data.</span></li>
+                <li><span class="section-title">With Anthropic:</span> <span class="section-content">Only the AI Coach inputs described in Section 4, and only when you use that feature.</span></li>
+                <li><span class="section-title">For legal reasons:</span> <span class="section-content">If required by law or to protect our rights, safety, or property.</span></li>
+            </ul>
+            <p>We do not sell, rent, or share your personal information with third parties for marketing purposes.</p>
+        </div>
+
+        <div class="section">
+            <h2>6. Data Security</h2>
+            <p>Your coffee data is stored on your device and, optionally, in your private iCloud account. Network requests (AI Coach, subscription validation) are made over encrypted HTTPS connections. While we use reasonable measures to protect your data, no method of storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
+        </div>
+
+        <div class="section">
+            <h2>7. Your Rights and Choices</h2>
+            <ul>
+                <li>You can delete any bean, shot, or photo within the App at any time.</li>
+                <li>You can delete all locally stored data by uninstalling the App. To remove synced data, you can also manage Telve's data in iOS Settings &gt; [your name] &gt; iCloud.</li>
+                <li>You control camera, photo library, and notification permissions in iOS Settings, and can revoke them at any time.</li>
+                <li>You can manage or cancel your subscription through your Apple ID account settings.</li>
+                <li>For users in jurisdictions with data protection laws (e.g., GDPR, CCPA), you may have additional rights such as access, portability, or objection — contact us to exercise them.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>8. Children's Privacy</h2>
+            <p>The App is not directed to children under 13 years of age, and we do not knowingly collect personal information from children under 13. If we become aware of such collection, we will delete the information promptly.</p>
+        </div>
+
+        <div class="section">
+            <h2>9. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will revise the "Last updated" date above and, where appropriate, notify you within the App. Continued use of the App after changes indicates your acceptance.</p>
+        </div>
+
+        <div class="section">
+            <h2>10. Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Enes Talha Uçar</strong></p>
+                <p>Telve</p>
+                <p>Email: <a href="mailto:enestalhaucar@icloud.com">enestalhaucar@icloud.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p><a href="telve-terms-of-use.html">Terms of Use →</a></p>
+        </div>
+    </div>
+</body>
+</html>
